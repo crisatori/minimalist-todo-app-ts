@@ -5,6 +5,9 @@ function App (): JSX.Element {
     <div className={styles.div}>
     <h1 className={styles.h1}>Todo app</h1>
     </div>
+    <div className={styles.todo_board}>
+
+    </div>
   </main>
   )
 }

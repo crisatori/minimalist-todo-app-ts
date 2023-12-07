@@ -1,18 +1,32 @@
 .main{
   display: grid;
-  grid-template-rows: 1fr 5fr;
-  height: 100vh;
+  padding: 3px;
+  grid-template-rows: 1fr 6fr;
+  min-height: 100vh;
   background-color: beige;
-  border: 3px dotted red;
+  /* border: 3px dotted red; */
+  row-gap: 8px;
+}
+
+.main > * {
+  border: 3px solid orangered;
 }
 
 .div{
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: red;
 }
 
 .h1{
   text-align: center;
   font-size: 1.6rem;
+}
+
+.todo_board{
+  width: 50%;
+  height: 100%;
+  place-self: center;
+  background-color: blueviolet;
 }
