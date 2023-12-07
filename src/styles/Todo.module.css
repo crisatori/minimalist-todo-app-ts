@@ -1,0 +1,20 @@
+.container{
+  width: 600px;
+  min-height: 100%;
+  border: 3px solid rosybrown;
+}
+.btn_container{
+  padding: 3px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 75px;
+  border: 1px solid red;
+}
+
+
+.add_btn{
+  font-size: 1rem;
+  height: 25px;
+}

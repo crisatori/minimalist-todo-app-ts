@@ -1,3 +1,4 @@
+import Todo from './components/Todo'
 import styles from './styles/Main.module.css'
 function App (): JSX.Element {
   return (
@@ -6,7 +7,7 @@ function App (): JSX.Element {
     <h1 className={styles.h1}>Todo app</h1>
     </div>
     <div className={styles.todo_board}>
-
+      <Todo />
     </div>
   </main>
   )
