@@ -1,0 +1,11 @@
+.task_container{
+  display: flex;
+  align-items: center;
+  padding: 3px;
+  height: 50px;
+  border: 1px solid gold;
+}
+
+.check_box{
+  height: 25px;
+}

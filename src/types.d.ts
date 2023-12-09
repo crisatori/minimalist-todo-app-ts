@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/consistent-type-definitions */
-
-export type Task = {
-  task_name: string
-
+export type TaskType = {
+  id: string
+  task: string
+  isCompleted: boolean
 }
